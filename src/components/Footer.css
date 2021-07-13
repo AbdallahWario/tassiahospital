@@ -144,6 +144,9 @@
   .footer-links {
     padding-top: 2rem;
   }
+  .footer-container{
+    margin-bottom: 10px;
+  }
 
   .footer-input {
     width: 100%;
