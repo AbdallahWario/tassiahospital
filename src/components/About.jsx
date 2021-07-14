@@ -2,6 +2,22 @@ import React from "react";
 import "./about.css";
 import CardItem from "./CardItem";
 const About = () => {
+  
+  const values=valuesitem.map((value)=>{
+   return(
+    <div className="values">
+    
+
+    <div className="valuesitems">
+      <ul>
+        <li>{value}</li>
+       
+      </ul>
+    </div>
+  </div>
+    )
+  });
+
   return (
     <div>
       <div className="section">
@@ -52,23 +68,7 @@ at an affordable cost
           />
           <CardItem
             src="images/tick.svg"
-            text=" 
-              OUR VALUES
-              Tassia hospital believes in a community hospital whose members:
-              
-             
-1. Trust, fear and acknowledge God in all their transactions.
-2. Are honest and have integrity.
-3. Are committed to continuous quality improvement.
-4. Espouse team work and create a motivating environment for all.
-5. Are creative and innovate in anticipating and meeting the needs of their customer.
-6. Are equipped with the latest skills necessary to provide the best customer service.
-7. Turn intentions into reality within schedule.
-8. Seeks consensus in making key decisions.
-9. Create and maintain goodwill within the community.
-10. Take care of the environment and make it secure for all.
-              
-              "
+            text={values}
             label="OUR VALUES"
           />
         </ul>
@@ -79,18 +79,4 @@ at an affordable cost
 
 export default About;
 
-// const values="  <h1>OUR VALUES</h1>
-// Tassia hospital believes in a community hospital whose members:
-// <ul>
-
-// <li>1. Trust, fear and acknowledge God in all their transactions.</li>
-// <li>2. Are honest and have integrity.</li>
-// <li>3. Are committed to continuous quality improvement.</li>
-// <li>4. Espouse team work and create a motivating environment for all.</li>
-// <li>5. Are creative and innovate in anticipating and meeting the needs of their customer.</li>
-// <li>6. Are equipped with the latest skills necessary to provide the best customer service.</li>
-// <li>7. Turn intentions into reality within schedule.</li>
-// <li>8. Seeks consensus in making key decisions.</li>
-// <li>9. Create and maintain goodwill within the community</li>
-// <li>10. Take care of the environment and make it secure for all.</li>
-// </ul>"
+const valuesitem=["Integrity","Hardwork","Honesty and Integrity","Compassion"," Care","Quality","Reliabilty","Accountability"]
