@@ -28,8 +28,9 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TASSIA HOSPITAL
           <img className="navbar-logo img" src="images/tassia.jpg"/>
+            TASSIA HOSPITAL
+         
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

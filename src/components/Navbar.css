@@ -18,6 +18,11 @@
   max-width: 1500px;
 }
 
+.navbar-logo>img {
+  margin-right: 10px;
+}
+
+
 .navbar-logo {
   color:rgb(7, 7, 218);
   justify-self: start;
