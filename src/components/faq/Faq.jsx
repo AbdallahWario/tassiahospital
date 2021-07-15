@@ -18,7 +18,7 @@ export const Faq = () => {
             <h1>Frequently asked Questions</h1>
             </div>
            
-            <div className="accordion">
+              <div className="accordion">
                 {data.map((item,i)=>(
                     <div className="item">
                         <div className="title" onClick={()=>toggle(i)}>

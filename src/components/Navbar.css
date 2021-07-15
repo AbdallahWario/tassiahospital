@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background: rgb(155, 153, 153);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -7,6 +8,7 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
+  margin-bottom: 10px;
   z-index: 999;
 }
 
@@ -84,6 +86,7 @@
 }
 
 @media screen and (max-width: 960px) {
+  
   
   .NavbarItems {
     position: relative;

@@ -50,5 +50,17 @@ p{
     margin-left: 15px;
     background-color:turquoise;
     padding: 10px;
-
 }
+@media only screen and (max-width: 768px) {
+    .wrapper{
+      width: 84%;
+      object-fit: contain;
+      overflow: hidden;
+     
+      padding: 0;
+      
+    }
+    .title{
+        font-size: 10px;
+    }
+  }
