@@ -22,14 +22,14 @@ export const Faq = () => {
                 {data.map((item,i)=>(
                     <div className="item">
                         <div className="title" onClick={()=>toggle(i)}>
-                    <h2>{item.question}</h2>
+                    <h1>{item.question}</h1>
                     <span>{selected===i?'-':'+'}</span>
                     </div>
                   <div className={
                       selected ===i ?`content show`:`content`
                   }>
-                      {item.content
-       }       </div>
+                      <p>{item.content}   </p> 
+                     </div>
 
 
                     </div>
