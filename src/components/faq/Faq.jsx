@@ -16,6 +16,8 @@ export const Faq = () => {
         <div className="wrapper">
             <div className="faqheader">
             <h1>Frequently asked Questions</h1>
+             
+        
             </div>
            
               <div className="accordion">

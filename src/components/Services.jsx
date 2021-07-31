@@ -44,8 +44,8 @@ function Services() {
           <ul className='cards__items'>
             <CardItem
               src='images/pharmacy.svg'
-              text='Our pharmaceutical services are second to none.OPerating 24hrs a day,our is pharmacy stocked with drugs of all
-              kinds to handle the needs of both our inpatients and outpatients'
+              text='Our pharmaceutical services are second to none.OPerating 24hrs a day,our is pharmacy is fully stocked
+              to handle the needs of both our inpatients and outpatients'
               label='PHARMACY'
               path='/services'
             />
@@ -95,7 +95,7 @@ function Services() {
               Periodontics, Gum Diseases, Prosthetics, Crown,
               Bridge, Restorative Dentistry, Cavities and Filling
               '
-              label='DENTAL CENTRE'
+              label='DENTAL UNIT'
             
             />
              <CardItem
@@ -113,7 +113,7 @@ function Services() {
           <CardItem
               src='images/ultra.svg'
               text=' Our radiology department  offer high quality 3D ultra sound services
-              at a reasonable fee.Ultra sounds help in monitoring foetal development'
+              at a reasonable fee.Ultra sounds help in monitoring foetal development and other organ body disfunction '
               label='ULTRA SOUND'
              
             />
@@ -129,7 +129,7 @@ function Services() {
              <CardItem
               src='images/counselling.svg'
               text=' Our proffesional therapists are available round the clock 
-              to address any issues.We offer individual ,group counselling, couple counselling and drug counselling among others'
+              to address any issues.We offer individual ,group counselling, couple counselling and drug related counselling among others'
               label='COUNSELLING'
              
             />
