@@ -16,7 +16,7 @@ function Services() {
             <CardItem
 
               label='ACCIDENTS AND EMERGENCY'
-              src='images/amb.svg'
+              src='images/ambulance.jpeg'
               text='
               With our highly skilled personnel,all emergency cases that get to us,the
               patients will be given the necessary first aid before being admitted for absolute care.
@@ -24,7 +24,7 @@ function Services() {
                     '
           />
             <CardItem
-              src='images/labb.svg'
+              src='images/lab.jpeg'
               text=' At Tassia Hospital we boast of an ultra modern laboratory faciliy that
               provide confirmatory diagnosis.We believe that right diagnosis is vital for
               the wellbeing of our patients and their peace of mind'
@@ -32,7 +32,7 @@ function Services() {
               
             />
              <CardItem
-              src='images/nurse.svg'
+              src='images/maternity.jpg'
               text=' At Tassia Hospital,we recognize the sacredness of life from conception  to death.
               We will support you to have a safe birth and give you prenatal and postnatal care.
             
@@ -43,14 +43,14 @@ function Services() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/pharmacy.svg'
+              src='images/docali2.jpeg'
               text='Our pharmaceutical services are second to none.OPerating 24hrs a day,our is pharmacy is fully stocked
               to handle the needs of both our inpatients and outpatients'
               label='PHARMACY'
               path='/services'
             />
             <CardItem
-              src='images/vaccine.svg'
+              src='images/child.jpg'
               text='Make an appointment with us for vaccination services for you and your loved ones. 
                        
                       
@@ -60,7 +60,7 @@ function Services() {
              
             />
             <CardItem
-              src='images/man.svg'
+              src='images/doc.jpeg'
               text='
                 Book an appointment with us and a multidisciplinary team  of dedicated staff will
                 attend to you for general body checkup and detection of chronic illness.
@@ -73,7 +73,7 @@ function Services() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/family.svg'
+              src='images/familyplanning.jpeg'
               text='
               We believe everyone should make informed choices about their sexual and reproductive health.
               Everyone is welcomed to our facility for an appointment with our doctors on matters of 
@@ -84,7 +84,7 @@ function Services() {
              
             />
              <CardItem
-              src='images/dental.svg'
+              src='images/dental.jpg'
               text='
               we offer a wide range of dental
               services to adults and children:Aesthetic dentistry, Veneers,
@@ -99,7 +99,7 @@ function Services() {
             
             />
              <CardItem
-              src='images/physiotherapy.svg'
+              src='images/physio.jpeg'
               text='
               Our skilled physiotherapists will will assess and diagnose your injuries,aches and pain.
               From that personalized treatment will be given to you.Our aim is to restore your normal body movement 
@@ -111,14 +111,14 @@ function Services() {
           </ul>
           <ul  className='cards__items'>
           <CardItem
-              src='images/ultra.svg'
+              src='images/ultra.jpeg'
               text=' Our radiology department  offer high quality 3D ultra sound services
               at a reasonable fee.Ultra sounds help in monitoring foetal development and other organ body disfunction '
               label='ULTRA SOUND'
              
             />
              <CardItem
-              src='images/phone.svg'
+              src='images/remote.jpg'
               text=' 
               Consultations have never been this easier.With our new service,one will be able to
               consult with our team of doctors any time of the day through  phonecalls and text messages.
@@ -127,7 +127,7 @@ function Services() {
             
             />
              <CardItem
-              src='images/counselling.svg'
+              src='images/counselling.jpeg'
               text=' Our proffesional therapists are available round the clock 
               to address any issues.We offer individual ,group counselling, couple counselling and drug related counselling among others'
               label='COUNSELLING'

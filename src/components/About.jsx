@@ -23,7 +23,7 @@ const About = () => {
       <div className="section">
         <div className="container">
           <div className="columnLeft">
-            <img src="images/consultation.jpg" alt="" srcset="" />
+            <img src="images/tassiaoutpatient.jpeg" alt="" srcset="" />
           </div>
           <div className="columnRight">
             <h1>Tassia Hospital</h1>
